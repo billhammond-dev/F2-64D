@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #999, #888);
+    height: 100vh;
+}
+
+h1 {
+    color: #ff6600d8;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 4vh;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: rgb(11, 38, 61);
+    text-shadow: -1px 0 #999, 0 1px #999, 1px 0 #999, 0 -1px #999;
+    font-size: 2.75vh;
+}
+
+
+.top-row {
+    display: flex;
+    height: 5vh;
+    background-color: #999;
+    margin: 0 20px 10px 20px;
+    justify-content: space-between;
+}
+
+.top-row__center {
+    flex-basis: 25%;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+
+.body-row {
+    border: solid 3px rgb(23, 83, 133);
+    height: 92vh;
+    margin: 0 10px 10px 10px;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #999, #377797b0);
+}
+
+.body-row__top {
+    display: flex;
+    flex: 1;
+}
+
+.body-row__top div {
+    margin: 25px;
+    border: solid 1px rgb(17, 56, 88, .85);
+    border-radius: 20px;
+    flex: 1;
+    padding: 5px;
+    background-color: rgb(217, 237, 255);
+}
+
+.body-row__input,
+.body-row__output {
+    display: flex;
+}
+
+.input-text {
+    overflow:hidden;
+    overflow-y: auto;
+    background-color: rgb(217, 237, 255);
+    border: 0;
+    height: auto;
+    width: 100%;
+    resize: none;
+    outline: none;
+    padding: 10px;
+}
+
+.output-text {
+    overflow:hidden;
+    overflow-y: auto;
+    background-color: rgb(217, 237, 255);
+    border: 0;
+    height: auto;
+    width: 100%;
+    resize: none;
+    outline: none;
+    padding: 10px; 
+}
+
+.body-row__bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-half {
+    display: flex;
+    width: 40%;
+}
+
+
+
+.bottom-text {
+    flex: 1;
+}
+
+.body-row__bottom img {
+    height: 3vh;
+}
+
+.body-row__bottom img:hover {
+    border: solid 1.5px #999;
+}
+
+.body-row__bottom img:active {
+    border: solid 1.5px #999;
+    background-color: #e74c3c;
+    padding: 3px;
+}
+
+
+
+
